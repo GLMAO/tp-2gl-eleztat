@@ -23,6 +23,7 @@ public class Cours implements ICours {
         this.necessiteProjecteur = necessiteProjecteur;
     }
 
+    
     @Override
     public String getDescription() {
         return "Cours de " + matiere + " avec " + enseignant + " (" + salle + ")";
